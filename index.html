@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Atanga Loans — Lusaka, Zambia</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
   :root {
     --blue:        #1B4FD8;
@@ -151,7 +151,10 @@
     background: var(--blue-pale); color: var(--blue);
     padding-left: 36px; border-left-color: var(--blue);
   }
-  .sidebar-nav a .s-icon { font-size: 1.2rem; width: 26px; text-align: center; flex-shrink: 0; }
+  .sidebar-nav a .s-icon {
+    font-size: 1.2rem; width: 26px; text-align: center; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+  }
   .sidebar-nav a .s-label { flex: 1; letter-spacing: 0.01em; }
   .sidebar-nav a .s-arrow { font-size: 0.9rem; color: var(--blue); opacity: 0; transition: opacity 0.2s, transform 0.2s; }
   .sidebar-nav a:hover .s-arrow { opacity: 1; transform: translateX(3px); }
@@ -524,31 +527,26 @@
   </div>
   <nav class="sidebar-nav">
     <a href="#home">
-      <span class="s-icon">🏠</span><span class="s-label">Home</span><span class="s-arrow">›</span>
+      <span class="s-icon"><i class="fas fa-home"></i></span><span class="s-label">Home</span><span class="s-arrow">›</span>
     </a>
     <a href="#about">
-      <span class="s-icon">👥</span><span class="s-label">About Us</span><span class="s-arrow">›</span>
+      <span class="s-icon"><i class="fas fa-users"></i></span><span class="s-label">About Us</span><span class="s-arrow">›</span>
     </a>
     <a href="#loans">
-      <span class="s-icon">💰</span><span class="s-label">Our Loans</span><span class="s-arrow">›</span>
+      <span class="s-icon"><i class="fas fa-coins"></i></span><span class="s-label">Our Loans</span><span class="s-arrow">›</span>
     </a>
     <a href="#how">
-      <span class="s-icon">📋</span><span class="s-label">How It Works</span><span class="s-arrow">›</span>
+      <span class="s-icon"><i class="fas fa-question-circle"></i></span><span class="s-label">How It Works</span><span class="s-arrow">›</span>
     </a>
     <a href="#contact">
-      <span class="s-icon">📍</span><span class="s-label">Contact</span><span class="s-arrow">›</span>
+      <span class="s-icon"><i class="fas fa-map-marker-alt"></i></span><span class="s-label">Contact</span><span class="s-arrow">›</span>
     </a>
   </nav>
-  <div class="sidebar-cta">
-    <a href="tel:+260976382793" class="s-btn-call">📞 +260 97 638 2793</a>
-    <a href="https://wa.me/260976382793" target="_blank" class="s-btn-wa"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
-  </div>
- 
 </aside>
 
 <!-- FLOATING CONTACT -->
 <div class="float-wrap">
- <a href="https://wa.me/260976382793" target="_blank" class="float-wa"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+  <a href="https://wa.me/260976382793" target="_blank" class="float-wa"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
   <a href="tel:+260976382793" class="float-phone">📞 Call Now</a>
 </div>
 
@@ -683,7 +681,7 @@
   <div class="how-top reveal">
     <div class="eyebrow">How It Works</div>
     <h2 class="section-h">Getting a loan is<br><em>just a call away.</em></h2>
-    <p class="section-sub">We've kept the process simple on purpose. No online forms, no confusing portals  just a real conversation with our friendly Zambian team.</p>
+    <p class="section-sub">We've kept the process simple on purpose. No online forms, no confusing portals — just a real conversation with our friendly Zambian team.</p>
   </div>
   <div class="steps">
     <div class="step reveal">
@@ -773,6 +771,7 @@
       <ul>
         <li><a href="tel:+260976382793">+260 97 638 2793</a></li>
         <li><a href="https://wa.me/260976382793">WhatsApp</a></li>
+        <li><a href="#contact">Cairo Road, Lusaka</a></li>
       </ul>
     </div>
   </div>
